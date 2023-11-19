@@ -114,5 +114,18 @@ body{
     color: #fff;
     border-radius: 15px;
   }
-  
+  @media screen and (max-width: 768px){
+    .tarefas{
+    padding:30px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction:column;
+    background-color:#2e2e2e;
+    width:200px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+}
 </style>
